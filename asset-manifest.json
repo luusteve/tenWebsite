@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tenWebsite/static/css/main.34dc3d58.chunk.css",
+    "main.js": "/tenWebsite/static/js/main.394cfc7c.chunk.js",
+    "main.js.map": "/tenWebsite/static/js/main.394cfc7c.chunk.js.map",
+    "runtime-main.js": "/tenWebsite/static/js/runtime-main.e5c41cf2.js",
+    "runtime-main.js.map": "/tenWebsite/static/js/runtime-main.e5c41cf2.js.map",
+    "static/js/2.b7167481.chunk.js": "/tenWebsite/static/js/2.b7167481.chunk.js",
+    "static/js/2.b7167481.chunk.js.map": "/tenWebsite/static/js/2.b7167481.chunk.js.map",
+    "index.html": "/tenWebsite/index.html",
+    "precache-manifest.2ccbde729f57995ecd618d829a73f981.js": "/tenWebsite/precache-manifest.2ccbde729f57995ecd618d829a73f981.js",
+    "service-worker.js": "/tenWebsite/service-worker.js",
+    "static/css/main.34dc3d58.chunk.css.map": "/tenWebsite/static/css/main.34dc3d58.chunk.css.map",
+    "static/js/2.b7167481.chunk.js.LICENSE.txt": "/tenWebsite/static/js/2.b7167481.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/tenWebsite/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5c41cf2.js",
+    "static/js/2.b7167481.chunk.js",
+    "static/css/main.34dc3d58.chunk.css",
+    "static/js/main.394cfc7c.chunk.js"
+  ]
+}
