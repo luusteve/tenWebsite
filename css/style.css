@@ -14,12 +14,12 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #092C6E;
+  color: rgba(255,255,255,.5);
 }
 
 a:hover {
   text-decoration: none;
-  color: #092C6E;
+  color: rgba(255,255,255,.8);
 }
 
 .iframe-container {
@@ -53,9 +53,18 @@ h1, h2, h3, h4, h5,
   color: #BCA44E !important;
 }
 
+.text-font-button {
+  font-family: "Roboto", sans-serif !important;
+}
+
 .text-main-font {
   font-family: "Raleway" !important;
 }
+
+.text-main-font {
+  font-family: "Raleway" !important;
+}
+
 
 .site-navbar-light {
   background: transparent !important;
@@ -72,6 +81,8 @@ h1, h2, h3, h4, h5,
     position: relative;
   }
 }
+
+
 
 .site-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 13px;
@@ -90,6 +101,14 @@ h1, h2, h3, h4, h5,
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.nav-text-link {
+  color: rgba(255,255,255,.5) !important;
+}
+
+.site-navbar-light .nav-text-link {
+  color: #000 !important;
 }
 
 .site-navbar-light .navbar-nav > .nav-item.site-cta a {
@@ -179,13 +198,24 @@ h1, h2, h3, h4, h5,
   color: #000 !important;
 }
 
+.site-navbar-light.scrolled .nav-link .menudrop{
+  color: #000 !important;
+}
+
+.dropdown-item:hover{color:#16181b;text-decoration:none;background-color:#e0e0e0}
+
+.site-navbar-light.scrolled .nav-menu.active {
+  color: #BCA44E  !important;
+}
+
+
 .site-navbar-light.scrolled .nav-link.active {
   color: #BCA44E  !important;
 }
 
+
 .carousel-item {
-  height: 100vh;
-  min-height: 350px;
+  /* height: 100vh;  */
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -377,6 +407,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 5px;
 }
 
+
 .btn {
   border-radius: 4px;
   cursor: pointer;
@@ -565,7 +596,7 @@ textarea.form-control {
 }
 
 #section-about {
-  padding: 8em 0;
+  padding: 5em 0;
 }
 
 #section-about .img {
@@ -1033,4 +1064,9 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998 !important;
 }
